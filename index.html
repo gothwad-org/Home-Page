@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gothwad Org - App Development Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .services, .portfolio, .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services h2, .portfolio h2, .contact h2 {
+            color: #2c3e50;
+        }
+        .services .box, .portfolio .box {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gothwad Org</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Building Apps That Transform</h1>
+        <p>We craft innovative mobile and web applications for your business.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="box">
+            <h3>App Development</h3>
+            <p>Custom mobile and web applications for iOS, Android, and web platforms.</p>
+        </div>
+        <div class="box">
+            <h3>UI/UX Design</h3>
+            <p>Beautiful and intuitive designs that engage your users.</p>
+        </div>
+        <div class="box">
+            <h3>Support & Maintenance</h3>
+            <p>Ongoing support to keep your apps running smoothly.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="box">
+            <h3>App Name 1</h3>
+            <p>Short description of the app.</p>
+        </div>
+        <div class="box">
+            <h3>App Name 2</h3>
+            <p>Short description of the app.</p>
+        </div>
+        <div class="box">
+            <h3>App Name 3</h3>
+            <p>Short description of the app.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <textarea placeholder="Your Message" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gothwad Org. All rights reserved.</p>
+    </footer>
+</body>
+</html>
